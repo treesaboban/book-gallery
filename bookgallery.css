@@ -1,0 +1,113 @@
+.header
+{
+    /* width:100%; */
+    background-color: black;
+     padding: 15px;
+     display: flex; 
+    color: beige;
+    position: sticky;
+    top:10px;
+}
+h3{ 
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:50px;
+    display: inline-block;
+    margin-top: 25px;
+    cursor: pointer;
+    justify-content: right; 
+}
+
+.header:hover h3 {
+    transform: scale(1.5);
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(16, 15, 15, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(177, 7, 7);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .common{
+    width: 310px;
+    height: 400px;
+    /* border: 9px solid #1b1a1a; */
+    /* border: 9px dotted #1b1a1a; */
+    /* border: 5px dashed #1b1a1a; */
+    /* border: 5px double #1b1a1a; */
+    /* border: 9px ridge #1b1a1a; */
+    border: 5px ridge #060606;
+    /* border: 5px outset #1b1a1a; */
+    /* border: 6px groove #1b1a1a; */
+    /* border-radius: 50%;circle  */
+    /* padding: 50px 60px; */
+   margin-left: 90px;
+   margin: 10px;
+   margin-right: 100px;
+    float: left;
+    box-shadow: 10px 10px rgb(196, 202, 204);
+
+}
+p{
+    text-align: center;
+    margin: 10px;
+    color: rgb(121, 4, 4);
+}
+.common img{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: center;
+    padding-left: 10%;
+    display: inline-block;  
+}
+.common img {
+    transition: 0.8s all ease-in-out;
+}
+
+.common img:hover {
+    transform: scale(1.5);
+}
+.button {
+    border-radius: 30px 40px 40px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .btn {background-color: #4CAF50;}
+
+  .footer  h4{
+    flex-shrink: 0;
+    /* position: fixed; */
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%; 
+    height: 10px;
+    background-color: rgb(14, 14, 15);
+    margin-left: 50px;
+   margin: 5px;
+   margin-top: 10px;
+   margin-right: 40px;
+   padding: 20px;
+   
+} 
